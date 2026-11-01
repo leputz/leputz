@@ -1,10 +1,10 @@
-## Hi there 👋
-
-# About Me
 ## 2025 - 2026
-
 I am a software engineer with solid and growing experience in, 
 - computer vision in platforms including, Cloud Servers, Web App, Mobile App, Embed System and Robotics.
+
+### Project: Integration of a digit recognition model (ONNX) in WeChat Mini Program
+[repository](https://github.com/leputz/sudokuwetmini)
+
 
 ## 2020 - 2025
 I’m a JavaScript back-end developer with main experience in:
@@ -28,7 +28,7 @@ Besides, I have experience in data analysis and data visualization with proficie
 
 Good communication skills and fluent English.
 
-## Project: Video Splitter Chrome Extension
+### Project: Video Splitter Chrome Extension
 
 **My role:** Full-stack engineer
 
