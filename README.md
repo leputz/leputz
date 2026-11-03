@@ -3,10 +3,12 @@ I am a software engineer with solid and growing experience in,
 - computer vision in platforms including, Cloud Servers, Web App, Mobile App, Embed System and Robotics.
 
 ### Project: Integration of a digit recognition model (ONNX) in WeChat Mini Program
+
 [repository](https://github.com/leputz/sudokuwetmini)
 
 ### Project: Convex Optimization In Python
 Python Implementations For Examples in Textbook Convex Optimization
+
 [repository](https://github.com/leputz/ConvexOptimizationInPython)
 
 ## 2020 - 2025
