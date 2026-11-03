@@ -5,6 +5,9 @@ I am a software engineer with solid and growing experience in,
 ### Project: Integration of a digit recognition model (ONNX) in WeChat Mini Program
 [repository](https://github.com/leputz/sudokuwetmini)
 
+### Project: Convex Optimization In Python
+Python Implementations For Examples in Textbook Convex Optimization
+[repository](https://github.com/leputz/ConvexOptimizationInPython)
 
 ## 2020 - 2025
 I’m a JavaScript back-end developer with main experience in:
