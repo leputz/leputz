@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>CV - leputz</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+            font-size: 11pt;
+            line-height: 1.5;
+            color: #1a1a1a;
+            background: #fff;
+            padding: 2cm 2.2cm;
+            max-width: 21cm;
+            margin: 0 auto;
+        }
+        @media print {
+            body { padding: 1.5cm 2cm; }
+            .no-print { display: none; }
+        }
+        header {
+            border-bottom: 2.5px solid #2c3e50;
+            padding-bottom: 12px;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            font-size: 24pt;
+            font-weight: 700;
+            color: #2c3e50;
+            letter-spacing: 1px;
+            margin-bottom: 4px;
+        }
+        header .subtitle {
+            font-size: 12pt;
+            color: #555;
+            margin-bottom: 6px;
+        }
+        header .contact {
+            font-size: 9.5pt;
+            color: #666;
+        }
+        header .contact span {
+            margin-right: 16px;
+        }
+        .placeholder {
+            background: #fff3cd;
+            color: #856404;
+            padding: 1px 4px;
+            border-radius: 3px;
+            font-style: italic;
+        }
+        section {
+            margin-bottom: 18px;
+        }
+        section h2 {
+            font-size: 13pt;
+            font-weight: 700;
+            color: #2c3e50;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            border-bottom: 1px solid #d0d7de;
+            padding-bottom: 3px;
+            margin-bottom: 10px;
+        }
+        .summary {
+            font-size: 10.5pt;
+            color: #333;
+            text-align: justify;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 6px 20px;
+            font-size: 10pt;
+        }
+        .skills-grid strong {
+            color: #2c3e50;
+        }
+        .skill-tags {
+            margin-top: 6px;
+        }
+        .skill-tags span {
+            display: inline-block;
+            background: #eef2f7;
+            border: 1px solid #d0d7de;
+            border-radius: 3px;
+            padding: 2px 8px;
+            margin: 2px 4px 2px 0;
+            font-size: 9pt;
+            color: #2c3e50;
+        }
+        .exp-item {
+            margin-bottom: 14px;
+        }
+        .exp-item .period {
+            font-size: 10pt;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        .exp-item .role {
+            font-size: 10.5pt;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin: 2px 0;
+        }
+        .exp-item .desc {
+            font-size: 10pt;
+            color: #444;
+        }
+        .exp-item ul {
+            margin: 4px 0 0 18px;
+            font-size: 10pt;
+            color: #444;
+        }
+        .exp-item ul li {
+            margin-bottom: 2px;
+        }
+        .project {
+            margin-bottom: 12px;
+        }
+        .project .name {
+            font-weight: 600;
+            font-size: 10.5pt;
+            color: #1a1a1a;
+        }
+        .project .name a {
+            color: #0366d6;
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 9pt;
+        }
+        .project .desc {
+            font-size: 10pt;
+            color: #444;
+            margin-top: 2px;
+        }
+        .project .tech {
+            font-size: 9pt;
+            color: #666;
+            margin-top: 3px;
+            font-style: italic;
+        }
+        .note {
+            font-size: 9pt;
+            color: #888;
+            margin-top: 4px;
+        }
+        footer {
+            margin-top: 28px;
+            padding-top: 10px;
+            border-top: 1px solid #d0d7de;
+            font-size: 8.5pt;
+            color: #999;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1><span class="placeholder">Jamie Y</span></h1>
+    <div class="subtitle">Software Engineer · Computer Vision & Full-Stack Development</div>
+    <div class="contact">
+        <span>Email: <span class="placeholder">...@...</span></span>
+        <span>Location: <span class="placeholder">Finland</span></span>
+        <span>GitHub: github.com/leputz</span>
+    </div>
+</header>
+
+<section>
+    <h2>Professional Summary</h2>
+    <p class="summary">
+        Software engineer with progressive experience spanning <strong>computer vision</strong> (Cloud Servers, Web App, Mobile App, Embedded Systems, Robotics) and <strong>JavaScript back-end development</strong> (Node.js, MongoDB, Redis, RabbitMQ, PM2). Comfortable owning features end-to-end, from Chrome extensions to CI/CD pipelines. Additional strengths in automation testing, data analysis, and data visualization with Python and MATLAB. Fluent English and strong communication skills.
+    </p>
+</section>
+
+<section>
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+        <div><strong>Computer Vision</strong><br>ONNX model integration, deployment on cloud / web / mobile / embedded / robotics platforms</div>
+        <div><strong>Back-End</strong><br>Node.js, API development, MongoDB, Redis, PM2, RabbitMQ</div>
+        <div><strong>Front-End</strong><br>JavaScript, HTML, CSS, Chrome Extension development</div>
+        <div><strong>Automation & CI/CD</strong><br>Python, Selenium, Robot Framework, Jenkins pipeline design, workflow automation</div>
+        <div><strong>Data Analysis</strong><br>pandas, matplotlib, MATLAB</div>
+        <div><strong>Web Scraping & Testing</strong><br>UI test scripts, log analysis, test automation</div>
+    </div>
+    <div class="skill-tags">
+        <span>Python</span>
+        <span>JavaScript</span>
+        <span>TypeScript</span>
+        <span>Node.js</span>
+        <span>ONNX</span>
+        <span>RabbitMQ</span>
+        <span>Redis</span>
+        <span>MongoDB</span>
+        <span>Selenium</span>
+        <span>Robot Framework</span>
+        <span>Jenkins</span>
+        <span>pandas</span>
+        <span>matplotlib</span>
+        <span>MATLAB</span>
+    </div>
+</section>
+
+<section>
+    <h2>Experience & Focus Areas</h2>
+
+    <div class="exp-item">
+        <div class="period">2025 – 2026</div>
+        <div class="role">Software Engineer — Computer Vision</div>
+        <div class="desc">
+            Focus on computer vision across cloud servers, web apps, mobile apps, embedded systems, and robotics.
+        </div>
+        <ul>
+            <li>Integrated a digit recognition model (ONNX) into a WeChat Mini Program.</li>
+            <li>Implemented convex optimization examples from textbook in Python (Jupyter Notebook).</li>
+        </ul>
+    </div>
+
+    <div class="exp-item">
+        <div class="period">2020 – 2025</div>
+        <div class="role">JavaScript Back-End Developer</div>
+        <div class="desc">
+            Primary experience in API development with Node.js, data stores (MongoDB, Redis), message queues (RabbitMQ), and process management (PM2). Also responsible for Chrome extension development, web scraping, automation test scripts (Python / Selenium / Robot Framework), Jenkins pipeline design, and CI/CD workflow automation.
+        </div>
+        <ul>
+            <li>Built and maintained back-end services with queueing, caching, and auto-recovery mechanisms.</li>
+            <li>Developed automation scripts for UI testing and log analysis.</li>
+            <li>Applied data analysis and visualization using pandas, matplotlib, and MATLAB.</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Selected Projects</h2>
+
+    <div class="project">
+        <div class="name">Video Splitter Chrome Extension <a href="https://github.com/leputz" target="_blank">→ GitHub</a></div>
+        <div class="desc">
+            <strong>Role:</strong> Full-Stack Engineer. Chrome extension that uploads a local video file, performs size/integrity checks, and posts it to a back-end server. The server splits the video based on scene/voice detection algorithms. Back-end includes queueing, cache management, task monitoring, auto-recovery, scheduled cleanup of long-lived files, separate process management service, and memory monitoring.
+        </div>
+        <div class="tech">JavaScript · Front-End Development · RabbitMQ · Redis · Python</div>
+    </div>
+
+    <div class="project">
+        <div class="name">Digit Recognition (ONNX) in WeChat Mini Program <a href="https://github.com/leputz/sudokuwetmini" target="_blank">→ sudokuwetmini</a></div>
+        <div class="desc">
+            Integrated a digit recognition model using the ONNX runtime into a WeChat Mini Program, extending computer vision capabilities to a mobile mini-app environment.
+        </div>
+        <div class="tech">ONNX · WeChat Mini Program · TypeScript</div>
+    </div>
+
+    <div class="project">
+        <div class="name">Convex Optimization in Python <a href="https://github.com/leputz/ConvexOptimizationInPython" target="_blank">→ ConvexOptimizationInPython</a></div>
+        <div class="desc">
+            Python (Jupyter Notebook) implementations of examples from the textbook <em>Convex Optimization</em>, demonstrating applied mathematical optimization and numerical computing skills.
+        </div>
+        <div class="tech">Python · Jupyter Notebook · Numerical Optimization</div>
+    </div>
+
+    <div class="project">
+        <div class="name">Pi4B ONNX Sudoku <a href="https://github.com/leputz/Pi4B_ONNX_Sudoku" target="_blank">→ Pi4B_ONNX_Sudoku</a></div>
+        <div class="desc">
+            ONNX-based Sudoku solving on Raspberry Pi 4B, combining embedded systems with computer vision / inference workloads.
+        </div>
+        <div class="tech">Python · ONNX · Raspberry Pi · Embedded</div>
+    </div>
+</section>
+
+<section>
+    <h2>Open Source & Community</h2>
+    <ul style="font-size:10pt; color:#444; margin-left:18px;">
+        <li>Contributed a fix to <strong>freeCodeCamp/freeCodeCamp</strong> (PR #64061, Nov 2025): improved error handling in <code>fetchUser</code> by wrapping with <code>wrapHandledError</code> and customizing the flash message.</li>
+        <li>Actively forked and experimented with widely used open-source projects including <strong>React, Next.js, Supabase, Strapi, Fastify, Astro, PM2, cal.com</strong>, reflecting hands-on interest in modern web frameworks, back-end tooling, and developer infrastructure.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Education</h2>
+    <div class="exp-item">
+        <div class="period">2005 – 2006</div>
+        <div class="role">MSc in Quantitative Social Research</div>
+        <div class="desc">University of Edinburgh</div>
+    </div>
+</section>
+
+<section>
+    <h2>Languages</h2>
+    <p style="font-size:10pt;"><strong>English</strong> — Fluent (stated on GitHub profile)</p>
+</section>
+
+<footer>
+    Generated from github.com/leputz · Placeholder fields marked in yellow should be replaced before export.
+</footer>
+
+</body>
+</html>
