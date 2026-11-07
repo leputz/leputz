@@ -48,7 +48,7 @@ The Chrome extension allows the user to upload a chosen video file on a local de
 - Redis
 - Python
 
-<a href="cv_20261117.html" target="_blank">CV</a>
+[Click here to open CV (latest update 2026-11-7)](https://leputz.github.io/leputz/cv_20261117.html)
 
 <!--
 **leputz/leputz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
