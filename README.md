@@ -1,4 +1,4 @@
-# Welcome to Leputz Home Page
+# Welcome to Home Page
 
 ## 2025 - 2026
 I am a software engineer with solid and growing experience in, 
